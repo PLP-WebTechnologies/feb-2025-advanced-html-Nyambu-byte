@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List & Registration Form</title>
+</head>
+<body>
+    <h2>Hobbies</h2>
+    <ol type="I">
+        <li>Hiking</li>
+        <li>Running</li>
+        <li>Walking</li>
+        <li>basketball</li>
+        <li>Football</li>
+    </ol>
+
+    <h2>Different Birds on the Sky</h2>
+    <img src="Bird Watching.jpg" alt="Bird Watching" width="600">
+
+    <h2>Contact List</h2>
+    <table border>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Faustine Kamau</td>
+            <td>02030-10100 Nyeri</td>
+            <td>07634838854</td>
+            <td>fau@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane Kiratu</td>
+            <td>56477-10020 Muranga</td>
+            <td>07457688499</td>
+            <td>kiratu@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Michael Jimmy</td>
+            <td>75748-10100 Nyeri</td>
+            <td>0499239090</td>
+            <td>michael@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Emily Janja</td>
+            <td>574738-10300 Laikipia</td>
+            <td>03782929902</td>
+            <td>Janja@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Christine Kafaiku</td>
+            <td>393902-10400 Marsabit</td>
+            <td>0249993992</td>
+            <td>christine020@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Rwanda">Rwanda</option>
+        </select>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="female"> Female
+        <input type="radio" id="gender" name="gender" value="male"> Male
+        <br><br>
+        <label for="interests">Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="Sports"> Sports
+        <input type="checkbox" id="music" name="interests" value="Music"> Music
+        <input type="checkbox" id="travel" name="interests" value="Travel"> Travel
+        <br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
